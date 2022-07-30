@@ -168,3 +168,23 @@ h2 {
         justify-content: left;
     }
 }
+.item1:hover {
+    height: 20px; width: 20px;
+    padding: 5px;
+    color: blue
+}
+.item2:hover {
+    height: 20px; width: 20px;
+    padding: 5px;
+    color: blue
+}
+.item3:hover {
+    height: 20px; width: 20px;
+    padding: 5px;
+    color: blue
+}
+.item4:hover {
+    height: 100px; width: 100px;
+    padding: 5px;
+    color: blue
+}
