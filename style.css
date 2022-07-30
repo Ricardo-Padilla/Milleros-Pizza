@@ -94,11 +94,21 @@ h2 {
     margin: 10px;
     padding: 10px;
     justify-content: center;
+    text-align: center;
+    animation-name: movement;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 .item6 {
     margin: 10px;
     padding: 10px;
     justify-content: center;
+    text-align: center;
+    animation-name: movement;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 .item7 {
     margin: 10px;
@@ -123,6 +133,11 @@ h2 {
     margin: 10px;
     padding: 10px;
     justify-content: center;
+    text-align: center;
+    animation-name: movement;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 .item11 {
     margin: 10px;
@@ -187,4 +202,18 @@ h2 {
     height: 100px; width: 100px;
     padding: 5px;
     color: blue
+}
+@keyframes movement {
+    0%{
+        background-color: green;
+    }
+    25%{
+        background-color: darkolivegreen;
+    }
+    75%{
+        background-color:darkred
+    }
+    100%{
+        background-color: red;
+    }
 }
